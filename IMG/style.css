@@ -83,7 +83,6 @@ section-one
 /*  aligning the div and the h1 */
 .section-one{
 margin: 1rem 0;
-height: 100vh;
 }
 .section-one .container{
 display: grid;
@@ -128,17 +127,65 @@ border-radius: 63px;
 section-two
 ***************/
 
-
-.section-two h1{
-  font-size: 3rem;
+.section-two{
+margin: 3rem 0;
 }
-.section-two h1{
-  font-size: 3rem;
+.section-two .my-skills, .developer{
+font-size: 4rem;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
+.section-two .developer{
+font-size: 1.8rem;
 }
 
 
+/******************
+section-two: icons
+*******************/
+.skill-icons{
+margin-top: 2rem;
+display: flex;
+justify-content: space-between;
+}
 
+/* .section-two .container h4{
+margin: 1rem 0rem 0rem 0rem;
+padding: 0 0 0 0;
+font-size: 1rem;
+display: flex;
+justify-content: space-between;
+align-self: flex-end;
 
+} */
+.fa-html5, .fa-sass, .fa-sketch {
+color: rgb(24,30,128);
+font-size: 6em;
+}
+.fa-js-square, .fa-css3-alt{
+color: rgb(210,74,0);
+font-size: 6em;
+}
+.jquery{
+width: 6rem;
+}
+.photoshop{
+width: 6rem;
+}
+/* .lunacy{
+width: 6rem;
+} */
+
+.work-process{
+  margin-top: 6rem;
+}
+.icon-title-ul{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+
+}
 
 
 
